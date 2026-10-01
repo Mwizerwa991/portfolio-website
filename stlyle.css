@@ -1,0 +1,229 @@
+```css
+/* =========================
+   GENERAL
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fb;
+    color: #333;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    background-color: #111827;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    min-height: 60vh;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* =========================
+   HOME
+========================= */
+
+#home {
+    background: linear-gradient(
+        to right,
+        #dbeafe,
+        #f0f9ff
+    );
+    padding: 120px 20px;
+}
+
+#home h1 {
+    font-size: 50px;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+section h1 {
+    font-size: 40px;
+    color: #0f172a;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #2563eb;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+.skill {
+    display: inline-block;
+    background-color: white;
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+/* =========================
+   PROJECTS
+========================= */
+
+.project {
+    background-color: white;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    color: #2563eb;
+}
+
+.project p {
+    line-height: 1.6;
+}
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* =========================
+   MOBILE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    nav h2 {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 15px;
+    }
+
+    #home h1 {
+        font-size: 35px;
+    }
+
+    #home p {
+        font-size: 17px;
+    }
+
+    section h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 60px 15px;
+    }
+
+}
+```
